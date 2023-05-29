@@ -1,0 +1,27 @@
+/*Form*/
+.form {
+  margin: auto;
+  max-width: 400px;
+  display: flex;
+  border-radius: 10px;
+  background-color: #CDCCDE;
+  box-shadow: 0px 5px 35px #6C6FA1;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
+  background-color: #CDCCDE;
+}
+.form_btn {
+  margin: 5px;
+}
+.form_btn:hover {
+  opacity: 0.6;
+  transition: 0.2s ease-in;
+}
+.form_img {
+  width: 30px;
+  vertical-align: middle;
+}

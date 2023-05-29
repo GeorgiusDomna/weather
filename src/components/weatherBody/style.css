@@ -1,0 +1,65 @@
+/*Card*/
+.weather {
+  max-width: 570px;
+  margin: 20px auto;
+  padding: 20px;
+
+  text-align: center;
+  border-radius: 20px;
+  background-color: #d8d8e7;
+  box-shadow: 0px 10px 35px #515491;
+}
+/*Location data*/
+.location {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  column-gap: 10px;
+}
+.cityName {
+  font-size: 40px;
+}
+.countryName {
+  background-color: #c8c5d5;
+  color: #757575;
+  font-size: 14px;
+  height: 100%;
+  padding: 2px 5px;
+  border-radius: 9px;
+}
+.localtime {
+  font-size: 12px;
+  color: #757575;
+}
+/*Weather data*/
+.weather-body {
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.weather-row{
+  display: flex;
+  column-gap: 10px;
+}
+
+
+
+
+@media (max-width: 300px) {
+  .cityName {
+    font-size: 25px;
+  }
+  .countryName {
+    font-size: 9px;
+  }
+  .localtime {
+    font-size: 8px;
+  }
+  .weather-row{
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content: center;
+  }
+}

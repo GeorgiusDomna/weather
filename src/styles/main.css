@@ -1,0 +1,20 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body, html {
+  background: rgb(0,5,94);
+  background: -moz-linear-gradient(52deg, rgba(0,5,94,1) 0%, rgba(244,244,244,1) 100%);
+  background: -webkit-linear-gradient(52deg, rgba(0,5,94,1) 0%, rgba(244,244,244,1) 100%);
+  background: linear-gradient(52deg, rgba(0,5,94,1) 0%, rgba(244,244,244,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00055e",endColorstr="#f4f4f4",GradientType=1);
+}
+
+.app {
+  position: relative;
+  padding: 10% 10px;
+  min-height: 100vh;
+}
+
