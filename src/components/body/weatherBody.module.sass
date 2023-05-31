@@ -1,0 +1,65 @@
+$color-gray: #757575
+
+/*Card*/
+.weather 
+  max-width: 555px
+  margin: 20px auto
+  padding: 20px
+
+  text-align: center
+  border-radius: 20px
+  background-color: #d8d8e7
+  box-shadow: 0px 10px 35px #515491
+
+
+/*Location data*/
+.location 
+  justify-content: center
+  flex-wrap: wrap
+  display: flex
+  column-gap: 10px
+
+.cityName 
+  font-size: 40px
+
+  @media (max-width: 300px) 
+    font-size: 25px
+
+
+.countryName 
+  background-color: #c8c5d5
+  color: $color-gray
+  font-size: 14px
+  height: 100%
+  padding: 2px 5px
+  border-radius: 9px
+
+  @media (max-width: 300px) 
+    font-size: 9px
+
+
+.localtime 
+  font-size: 12px
+  color: $color-gray
+
+  @media (max-width: 300px) 
+    font-size: 8px
+
+
+
+/*Weather data*/
+.body 
+  justify-content: center
+  margin-top: 20px
+  display: flex
+  flex-wrap: wrap
+  row-gap: 10px
+
+  .row 
+    display: flex
+    column-gap: 10px
+    row-gap: 10px
+
+    @media (max-width: 300px) 
+      flex-wrap: wrap
+      justify-content: center

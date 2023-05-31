@@ -1,6 +1,6 @@
 import React from "react";
 import planet from '../../img/planet.svg'
-import './style.css'
+import s from './Search.module.sass'
 
 const Search = ({setInputSearch}) => {
 
@@ -10,10 +10,10 @@ function handlineSubmit(event) {
 }
 
   return (
-    <form onSubmit={handlineSubmit} className="form">
-      <input placeholder="Введите город" name="input" className="input" />
-      <button className="form_btn">
-        <img src={planet} alt="searchImg" className="form_img" />
+    <form onSubmit={handlineSubmit} className={s.form}>
+      <input placeholder="Введите город" name="input" className={s.input} />
+      <button className={s.btn}>
+        <img src={planet} alt="searchImg" className={s.img} />
       </button>
     </form>
   );

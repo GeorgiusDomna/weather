@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Footer from './components/footer/Footer';
 import Search from './components/search/Search';
-import WeatherBody from './components/weatherBody/WeatherBody';
+import Body from './components/body/Body';
 import './styles/main.css'
 
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='app'>
       <Search setInputSearch={setInputSearch} />
-      {inputSearch && <WeatherBody inputSearch={inputSearch} />}
+      {inputSearch && <Body inputSearch={inputSearch} />}
       <Footer />
     </div>
   );
